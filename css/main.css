@@ -1,2 +1,119 @@
 @charset "utf-8";
 @import url(../css/html5reset-1.6.1.css); /*reset css*/
+
+/* header */
+header#header {
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+}
+.header_wrap {
+    overflow: hidden;
+    margin: 17px 8%;
+}
+.isara_logo img {
+    width: 128px;
+    float: left;
+    margin-right: 10px;
+}
+.isara_title {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    float: left;
+    margin-top: 20px;
+}
+.contact_btn_pc {
+    float: right;
+}
+.contact_btn_pc a {
+    text-decoration: none;
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #da5046;
+    opacity: 0.8;
+
+    display: block;
+    width: 317px;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+.contact_btn_pc a:hover {
+    opacity: 1.0;
+}
+/* Top */
+.top {
+    width: 100%;
+    height: 500px;
+    background: url(../images/main.jpg);
+    background-size: cover;
+}
+/* Contact */
+.info {
+    background-color: #EBB94D;
+}
+.info_wrap {
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.info h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    display: block;
+}
+.info_caution {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #c7254e;
+    background-color: #ffffff;
+
+    display: block;
+    margin: 10px auto;
+    border-radius: 6px;
+    width: 505px;
+}
+a#info_btn {
+    text-decoration: none;
+
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 45px;
+    color: #ffffff;
+
+    background-color: #DA6B64;
+    border-radius: 50px;
+
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+    margin: 50px 10%;
+}
+.info h2 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 34px;
+    color: #ffffff;
+    display: block;
+    margin: 19px 0;
+}
+
+/* footer */
+.footer_wrap {
+    clear: both;
+    text-align: center;
+}
