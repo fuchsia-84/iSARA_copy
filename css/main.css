@@ -112,6 +112,52 @@ a#info_btn {
     margin: 19px 0;
 }
 
+/* intro */
+.intro {
+    width: 100%;
+    height: 587px;
+    background: url(../images/introbottom.jpg);
+    background-size: cover;
+}
+.intro_wrap {
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.intro_box {
+    position: relative;
+    width: 860px;
+    padding: 1.5em 0.2em;
+    margin: 0 auto;
+}
+.intro_box:before,.intro_box:after {
+    content:'';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: inline-block;
+}
+.intro_box:before {
+    border-left: solid 4px #EBB94D;
+    border-top: solid 4px #EBB94D;
+    top:0;
+    left: 0;
+}
+.intro_box:after {
+    border-right: solid 4px #EBB94D;
+    border-bottom: solid 4px #EBB94D;
+    bottom:0;
+    right: 0;
+}
+.intro_box h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+    padding-top: 10px;
+}
 /* footer */
 .footer_wrap {
     clear: both;
