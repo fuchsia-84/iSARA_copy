@@ -158,6 +158,110 @@ a#info_btn {
     color: #333333;
     padding-top: 10px;
 }
+
+/* about */
+.about {
+    position: relative;
+    background-color: #FEF5E0;
+}
+.about_circle {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    transform: translateX(50vw);
+}
+.about_circle p {
+    text-align: center;
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 80px;
+    color: #ffffff;
+
+    background-color: #EBB94D;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.about_wrap {
+    text-align: center;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about_box {
+    position: relative;
+    width: 860px; /* TODO: min-width*/
+    padding: 1.5em 0.2em;
+    margin: 0 auto;
+}
+.about_box:before,.about_box:after {
+    content:'';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: inline-block;
+}
+.about_box:before {
+    border-left: solid 4px #EBB94D;
+    border-top: solid 4px #EBB94D;
+    top:0;
+    left: 0;
+}
+.about_box:after {
+    border-right: solid 4px #EBB94D;
+    border-bottom: solid 4px #EBB94D;
+    bottom:0;
+    right: 0;
+}
+.about_box h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+    padding-top: 10px;
+}
+.about h2 {
+    display: block;
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    margin: 30px 0;
+}
+.about_content {
+    display: block;
+    width: 1170px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: solid 2px #EBB94D;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about_content_title {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+}
+.about_skill {
+    display: inline-block;
+    margin: 15px 15px;
+}
+.about_skill p {
+    display: block;
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    color: #333333;
+    margin: 10px auto;
+}
+
 /* footer */
 .footer_wrap {
     clear: both;
