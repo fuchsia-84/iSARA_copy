@@ -330,6 +330,27 @@ a#info_btn {
     line-height: 26px;
     color: black;
 }
+/* about_3 */
+.about_3 {
+    background-color: #256EA9;
+    height: 64px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.about_3_wrap {
+    text-align: center;
+    display: block;
+}
+.about_3 h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.about_3 h1 span {
+    color: #EBB94D;
+}
 
 /* footer */
 .footer_wrap {
