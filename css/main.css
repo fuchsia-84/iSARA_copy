@@ -6,6 +6,7 @@ header#header {
     position: fixed;
     width: 100%;
     background: #ffffff;
+    z-index: 1;
 }
 .header_wrap {
     overflow: hidden;
