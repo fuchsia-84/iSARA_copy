@@ -362,8 +362,38 @@ a#info_btn {
     text-align: center;
     display: block;
 }
+.learning_title {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+}
+.learning_title span {
+    font-size: 16px;
+}
+.learning_dis {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.learning .container {
+    max-width: 848px;
+}
 .learning img {
     width: 180px;
+}
+.learning p {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+    margin-top: 45px;
 }
 /* footer */
 .footer_wrap {
