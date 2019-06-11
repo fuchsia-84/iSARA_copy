@@ -333,7 +333,7 @@ a#info_btn {
 /* about_3 */
 .about_3 {
     background-color: #256EA9;
-    height: 64px;
+    height: 144px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -351,7 +351,20 @@ a#info_btn {
 .about_3 h1 span {
     color: #EBB94D;
 }
-
+/* learning */
+.learning {
+    background-color: #ffffff;
+    height: 507px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.learning_wrap {
+    text-align: center;
+    display: block;
+}
+.learning img {
+    width: 180px;
+}
 /* footer */
 .footer_wrap {
     clear: both;
