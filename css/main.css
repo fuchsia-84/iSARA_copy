@@ -395,6 +395,119 @@ a#info_btn {
     color: #333333;
     margin-top: 45px;
 }
+/* merit */
+.merit {
+    background-color: #FEF5E0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+.merit_wrap {
+    text-align: center;
+    display: block;
+}
+.merit_box {
+    position: relative;
+    width: 860px; /* TODO: min-width*/
+    padding: 1.5em 0.2em;
+    margin: 0 auto;
+}
+.merit_box:before,.merit_box:after {
+    content:'';
+    width: 40px; /* TODO: fix width and height */
+    height: 40px;
+    position: absolute;
+    display: inline-block;
+}
+.merit_box:before {
+    border-left: solid 4px #EBB94D;
+    border-top: solid 4px #EBB94D;
+    top:0;
+    left: 0;
+}
+.merit_box:after {
+    border-right: solid 4px #EBB94D;
+    border-bottom: solid 4px #EBB94D;
+    bottom:0;
+    right: 0;
+}
+.merit_box h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+    padding-top: 10px; /* TODO: fix padding */
+}
+.merit_box h1 span{
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #333333;
+    padding-top: 10px; /* TODO: fix padding */
+}
+.merit_content_title {
+    text-align: left;
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ebb94d;
+}
+.merit_content_dis {
+    text-align: left;
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+.merit img {
+    width: 360px;
+    margin: 0 auto 10px auto;
+}
+.merit .container {
+    margin-top: 30px;
+}
+.merit_support {
+    display: block;
+    width: 1170px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border: solid 2px #EBB94D;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.merit_support h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+    color: #ebb94d;
+}
+.merit_support h2 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+}
+.merit_support p {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+.merit_caution {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
 /* footer */
 .footer_wrap {
     clear: both;
