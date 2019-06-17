@@ -889,6 +889,82 @@ a#info_btn {
         line-height: 19px;
     }
 }
+/* bangkok */
+.bangkok {
+    width: 100%;
+    height: 496px;
+    background: url(../images/bangkokbg.jpg);
+    background-size: cover;
+}
+.bangkok_wrap {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 100px;
+}
+.bangkok h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #ffffff;
+}
+.bangkok h2 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.bangkok p {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
+.bangkok ul {
+    list-style: none;
+}
+.bangkok ul li {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.bangkok ul li:before {
+    content: "・";
+}
+@media screen and (max-width: 768px) {
+    .bangkok {
+        height: 338px;
+        background: url(../images/bangkokbgsp.jpg);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .bangkok_wrap {
+        padding-top: 30px;
+    }
+    .bangkok h1 {
+        text-align: center;
+    }
+    .bangkok p {
+        font-size: 12px;
+        line-height: 19px;
+        margin: 20px auto;
+    }
+    .bangkok ul li {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .bangkok h2 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
 /* footer */
 .footer_wrap {
     clear: both;
