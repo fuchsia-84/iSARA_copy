@@ -965,6 +965,94 @@ a#info_btn {
         line-height: 24px;
     }
 }
+/* special */
+.special {
+    background-color: #F7C23C;
+}
+.special_wrap {
+    text-align: center;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.special h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+}
+.special h2 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+    margin: 50px auto;
+}
+.special h2 span {
+    color: #ffffff;
+}
+.special h3 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    color: #333333;
+    background-color: #F7C23C;
+
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.special .container {
+    border: solid 3px #ffffff;
+    position: relative;
+    z-index: 0;
+    margin-top: 90px;
+}
+.special_circle {
+    display: inline-block;
+    margin: 50px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.special_circle h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 38px;
+    color: #EBB94D;
+
+    display: block;
+    width: 220px;
+    margin: 50px auto 10px auto;
+}
+.special_circle p {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+
+    display: inline-block;
+    width: 220px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 992px) {
+    .special .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .special_circle {
+        margin: 15px auto;
+    }
+}
 /* footer */
 .footer_wrap {
     clear: both;
