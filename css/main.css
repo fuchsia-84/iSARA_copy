@@ -779,6 +779,9 @@ a#info_btn {
     padding-top: 8px;
     border-bottom: dotted 1px #777777;
 }
+.class_content li:last-child {
+    border-bottom: none;
+}
 /* class under */
 .class_under {
     background-color: #256EA9;
