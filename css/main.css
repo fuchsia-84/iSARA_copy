@@ -799,6 +799,96 @@ a#info_btn {
     line-height: 32px;
     color: #ffffff;
 }
+/* flow */
+.flow {
+    background-color: #ffffff;
+}
+.flow_wrap {
+    text-align: center;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.flow h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+}
+.flow_all_image {
+    width: 88%;
+    max-width: 1000px;
+    min-width: 691px;
+    margin: 30px auto;
+}
+.flow_box {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: #FEF5E0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.flow_line {
+    width: 60vw;
+    max-width: 762px;
+    min-width: 465px;
+}
+.flow_icon {
+    width: 200px;
+    float: left;
+}
+.flow_icon img {
+    display: block;
+    margin: 20px auto;
+}
+.flow_icon p {
+    display: block;
+    text-align: center;
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #333333;
+}
+.flow_box_dis {
+    width: 55vw;
+    max-width: 900px;
+    display: inline-block;
+    text-align: left;
+}
+.flow_box_dis h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+    margin: 30px auto;
+}
+.flow_box_dis p {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+@media screen and (max-width: 768px) {
+    .flow_content {
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .flow_box_dis h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .flow_box_dis p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
 /* footer */
 .footer_wrap {
     clear: both;
