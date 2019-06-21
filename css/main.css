@@ -1174,6 +1174,90 @@ a#info_btn {
 .message_dis ul li:before {
     content: "・";
 }
+/* contact */
+.contact {
+    background-color: #EBB94D;
+}
+.contact_wrap {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+}
+.contact h2 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+.contact input[type="text"] {
+    display: block;
+    width: 60vw;
+    height: 55px;
+    margin: 30px auto;
+    border-radius: 5px;
+    border: none;
+}
+.contact input[type="email"] {
+    display: block;
+    width: 60vw;
+    height: 55px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+}
+.contact textarea {
+    display: block;
+    width: 60vw;
+    height: 100px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+
+}
+.contact input[type="submit"] {
+    display: block;
+    width: 60vw;
+    height: 55px;
+    margin: 40px auto;
+    border: none;
+    border-radius: 50px;
+    background-color: #DA6B64;
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 24px;
+    color: #ffffff;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #777777;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #777777;
+}
+::placeholder{ /* Others */
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #777777;
+}
 /* footer */
 .footer_wrap {
     clear: both;
