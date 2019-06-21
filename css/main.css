@@ -1279,6 +1279,7 @@ a#info_btn {
     margin: 30px auto;
     width: 80vw;
     text-align: left;
+    position: relative;
 }
 .faq_accordion button {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
@@ -1297,17 +1298,34 @@ a#info_btn {
     line-height: 26px;
     color: #333333;
 }
+.faq_according button:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 32px;
+    color: #EEEEEE;
+    content: "\f107";/* angle-down */
+}
 #faq_accordion .card-header button[data-toggle="collapse"].collapsed:after {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
+    font-size: 32px;
+    color: #EEEEEE;
     content: "\f107";/* angle-down */
-    float: right;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    margin-top: -12px;
 }
 #faq_accordion .card-header button[data-toggle="collapse"]:after {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
+    font-size: 32px;
+    color: #EEEEEE;
     content: "\f106";/* angle-up */
-    float: right;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    margin-top: -12px;
 }
 /* footer */
 .footer_wrap {
