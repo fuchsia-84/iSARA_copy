@@ -1300,13 +1300,13 @@ a#info_btn {
 #faq_accordion .card-header button[data-toggle="collapse"].collapsed:after {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    content: "\f103";/* angle-double-down */
+    content: "\f107";/* angle-down */
     float: right;
 }
 #faq_accordion .card-header button[data-toggle="collapse"]:after {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    content: "\f102";/* angle-double-up */
+    content: "\f106";/* angle-up */
     float: right;
 }
 /* footer */
