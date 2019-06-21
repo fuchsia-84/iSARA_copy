@@ -1298,6 +1298,9 @@ a#info_btn {
     line-height: 26px;
     color: #333333;
 }
+#faq_accordion .card-header button i {
+    color: #256EA9;
+}
 #faq_accordion .card-header button[data-toggle="collapse"].collapsed:after {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
