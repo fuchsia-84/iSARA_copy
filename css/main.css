@@ -1297,7 +1297,18 @@ a#info_btn {
     line-height: 26px;
     color: #333333;
 }
-
+#faq_accordion .card-header button[data-toggle="collapse"].collapsed:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f103";/* angle-double-down */
+    float: right;
+}
+#faq_accordion .card-header button[data-toggle="collapse"]:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f102";/* angle-double-up */
+    float: right;
+}
 /* footer */
 .footer_wrap {
     clear: both;
