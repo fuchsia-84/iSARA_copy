@@ -1258,6 +1258,46 @@ a#info_btn {
     line-height: 22px;
     color: #777777;
 }
+
+/* faq */
+.faq {
+    background-color: #ffffff;
+}
+.faq_wrap {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.faq h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    color: #333333;
+}
+.faq_accordion {
+    margin: 30px auto;
+    width: 80vw;
+    text-align: left;
+}
+.faq_accordion button {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+}
+.faq_accordion button:hover {
+    color: #000000;
+}
+.faq_accordion p {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+
 /* footer */
 .footer_wrap {
     clear: both;
