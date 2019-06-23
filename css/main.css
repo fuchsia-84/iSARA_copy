@@ -1324,9 +1324,22 @@ a#info_btn {
     margin-top: -12px;
 }
 /* footer */
+footer#footer {
+    background-color: #ECECEC;
+}
 .footer_wrap {
     clear: both;
+    width: 100%;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+footer .copyright{
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+    color: #333333;
 }
 .sns_link_list {
     list-style: none;
