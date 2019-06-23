@@ -1328,3 +1328,9 @@ a#info_btn {
     clear: both;
     text-align: center;
 }
+.sns_link_list {
+    list-style: none;
+}
+.sns_link_list li {
+    display: inline;
+}
