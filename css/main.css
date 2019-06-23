@@ -1341,9 +1341,11 @@ footer .copyright{
     line-height: 16px;
     color: #333333;
 }
+/* sns link */
 .sns_link_list {
     list-style: none;
 }
 .sns_link_list li {
     display: inline;
+    line-height: 11px;
 }
