@@ -55,6 +55,23 @@ header#header {
     background: url(../images/main.jpg);
     background-size: cover;
 }
+.top_wrap {
+    text-align: center;
+}
+.top h1 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    color: #333333;
+}
+.top h2 {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+}
 /* Contact */
 .info {
     background-color: #EBB94D;
