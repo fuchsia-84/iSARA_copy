@@ -157,7 +157,8 @@ a#info_btn {
 }
 .intro_box {
     position: relative;
-    width: 860px;
+    width: 96vw;
+    max-width: 860px;
     padding: 1.5em 0.2em;
     margin: 0 auto;
 }
@@ -221,7 +222,8 @@ a#info_btn {
 }
 .about_box {
     position: relative;
-    width: 860px; /* TODO: min-width*/
+    width: 96vw;
+    max-width: 860px;
     padding: 1.5em 0.2em;
     margin: 0 auto;
 }
@@ -436,7 +438,8 @@ a#info_btn {
 }
 .merit_box {
     position: relative;
-    width: 860px; /* TODO: min-width*/
+    width: 96vw;
+    max-width: 860px;
     padding: 1.5em 0.2em;
     margin: 0 auto;
 }
@@ -638,7 +641,8 @@ a#info_btn {
 }
 .question_box {
     position: relative;
-    width: 860px; /* TODO: min-width*/
+    width: 96vw;
+    max-width: 860px;
     padding: 1.5em 0.2em;
     margin: 60px auto 0 auto;
 }
@@ -1109,7 +1113,8 @@ a#info_btn {
 }
 .special_detail_box {
     position: relative;
-    width: 860px; /* TODO: min-width*/
+    width: 96vw;
+    max-width: 860px;
     padding: 1.5em 0.2em;
     margin: 0 auto;
 }
