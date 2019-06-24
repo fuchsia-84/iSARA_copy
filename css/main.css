@@ -43,11 +43,14 @@ header#header {
 
     display: block;
     width: 317px;
+    height: 44px;
     padding: 10px 0;
     border-radius: 50px;
 }
 .contact_btn_pc a:hover {
     opacity: 1.0;
+    text-decoration: none;
+    color: #ffffff;
 }
 /* Top */
 .top {
