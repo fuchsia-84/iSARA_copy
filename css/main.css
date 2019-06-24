@@ -265,7 +265,8 @@ a#info_btn {
 }
 .about_content {
     display: block;
-    width: 1170px;
+    width: 96vw;
+    max-width: 1170px;
     margin: 0 auto;
     background-color: #ffffff;
     border: solid 2px #EBB94D;
@@ -503,7 +504,8 @@ a#info_btn {
 }
 .merit_support {
     display: block;
-    width: 1170px;
+    width: 96vw;
+    max-width: 1170px;
     margin: 30px auto;
     background-color: #ffffff;
     border: solid 2px #EBB94D;
