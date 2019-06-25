@@ -532,6 +532,7 @@ a#info_btn {
     font-weight: 300;
     font-size: 12px;
     line-height: 19px;
+    letter-spacing: 2px;
     color: #333333;
     margin: 10px auto;
 }
@@ -552,6 +553,27 @@ a#info_btn {
 @media screen and (max-width: 768px) {
     .about .br_sp {
         display: block;
+    }
+    .about_box h1 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .about_content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .about_skill {
+        margin: 0 15px;
+    }
+    .about_skill img {
+        zoom: 0.5;
+    }
+    .about_skill p {
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 1px;
+        color: #333333;
+        margin: 10px auto;
     }
 }
 
