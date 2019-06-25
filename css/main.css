@@ -1,6 +1,14 @@
 @charset "utf-8";
 @import url(../css/html5reset-1.6.1.css); /*reset css*/
 
+/* wrap */
+.top_wrap, .info_wrap, .intro_wrap, .about_wrap, .about_2_wrap, .about_3_wrap,
+.learning_wrap, .merit_wrap, .teacher_wrap, .question_wrap, .answer_wrap, .class_wrap,
+.class_under_wrap, .flow_wrap, .bangkok_wrap, .special_wrap, .special_detail_wrap,
+.message_wrap, .contact_wrap, .faq_wrap, .footer_wrap {
+    overflow: hidden;
+}
+
 /* header */
 header#header {
     position: fixed;
