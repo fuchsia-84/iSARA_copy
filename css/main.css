@@ -698,6 +698,12 @@ a#info_btn {
     line-height: 22px;
     color: #333333;
 }
+@media screen and (max-width: 1200px) {
+    .merit img {
+        width: 300px;
+        margin: 0 auto 10px auto;
+    }
+}
 
 /* teacher */
 .teacher {
