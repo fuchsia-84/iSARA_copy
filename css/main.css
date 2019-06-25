@@ -13,12 +13,18 @@ header#header {
     overflow: hidden;
     margin: 17px 8%;
 }
-.isara_logo img {
+.isara_logo_sp {
+    display: none;
+}
+.contact_btn_sp {
+    display: none;
+}
+.isara_logo_pc img {
     width: 128px;
     float: left;
     margin-right: 10px;
 }
-.isara_title {
+.isara_logo_pc p {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -51,6 +57,76 @@ header#header {
     opacity: 1.0;
     text-decoration: none;
     color: #ffffff;
+}
+@media screen and (max-width: 1200px) {
+    .isara_title {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .contact_btn_pc a {
+        font-size: 12px;
+        line-height: 19px;
+        
+        width: 261px;
+        height: 41px;
+        padding: 10px 0;
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    header#header {
+        height: 62px;
+    }
+    .header_wrap {
+        overflow: hidden;
+        margin: 0;
+    }
+    .isara_logo_pc {
+        display: none;
+    }
+    .isara_logo_sp {
+        display: inline-block;
+        margin: 10px 0;
+    }
+    .isara_logo_sp img {
+        width: 86px;
+        margin: 0;
+    }
+    .isara_logo_sp p {
+        font-size: 10px;
+        line-height: 16px;
+        margin: 0;
+    }
+    .contact_btn_pc {
+        display: none;
+    }
+    .contact_btn_sp {
+        display: block;
+        float: right;
+        width: 76px;
+        height: 61px;
+        background-color: #DA6B64;
+    }
+    .contact_btn_sp img {
+        display: block;
+        width: 20px;
+        margin: 10px auto 0;
+    }
+    .contact_btn_sp a {
+        text-decoration: none;
+        font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #ffffff;
+
+        display: block;
+    }
+    .contact_btn_sp a:hover {
+        text-decoration: underline;
+        color: #ffffff;
+    }
 }
 /* Top */
 .top {
