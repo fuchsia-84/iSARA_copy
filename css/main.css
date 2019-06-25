@@ -458,6 +458,9 @@ a#info_btn {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.about .br_sp {
+    display: none;
+}
 .about_box {
     position: relative;
     width: 96vw;
@@ -544,6 +547,11 @@ a#info_btn {
     .about_content_title {
         font-size: 16px;
         line-height: 26px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about .br_sp {
+        display: block;
     }
 }
 
