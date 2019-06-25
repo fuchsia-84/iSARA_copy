@@ -523,6 +523,20 @@ a#info_btn {
     color: #333333;
     margin: 10px auto;
 }
+@media screen and (max-width: 1200px) {
+    .about_box h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .about h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about_content_title {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
 
 /* about_2 */
 .about_2 {
