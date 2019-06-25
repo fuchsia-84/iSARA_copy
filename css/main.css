@@ -325,7 +325,7 @@ a#info_btn {
     width: 96vw;
     max-width: 860px;
     padding: 1.5em 0.2em;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
 }
 .intro_box:before,.intro_box:after {
     content:'';
@@ -353,6 +353,20 @@ a#info_btn {
     line-height: 40px;
     color: #333333;
     padding-top: 10px;
+}
+.intro p {
+    font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+}
+.intro p span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+    background: linear-gradient(transparent 60%, #EBB94D 0%);
 }
 
 /* about */
