@@ -768,6 +768,9 @@ a#info_btn {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.about_3 .br_sp {
+    display: none;
+}
 .about_3 h1 {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 600;
@@ -778,7 +781,32 @@ a#info_btn {
 .about_3 h1 span {
     color: #EBB94D;
 }
-/* learning */
+@media screen and (max-width: 1200px) {
+    .about_3 .br_sp {
+        display: none;
+    }
+    .about_3 h1 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about_3 {
+        height: 97px;
+    }
+    .about_3_wrap {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .about_3 .br_sp {
+        display: block;
+    }
+    .about_3 h1 {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
+/* learning */ 
 .learning {
     background-color: #ffffff;
     height: 507px;
