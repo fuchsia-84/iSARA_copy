@@ -810,12 +810,15 @@ a#info_btn {
 .learning {
     background-color: #ffffff;
     height: 507px;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 .learning_wrap {
     text-align: center;
     display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.learning .br_sp {
+    display: none;
 }
 .learning_title {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
@@ -837,10 +840,16 @@ a#info_btn {
     margin-bottom: 30px;
 }
 .learning .container {
-    max-width: 848px;
+    width: 99%;
+    max-width: 890px;
+    margin-bottom: 50px;
+}
+.learning .l_box {
+    max-width: 25%;
 }
 .learning img {
-    width: 180px;
+    width: 99%;
+    max-width: 180px;
 }
 .learning p {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
@@ -848,7 +857,66 @@ a#info_btn {
     font-size: 16px;
     line-height: 26px;
     color: #333333;
-    margin-top: 45px;
+}
+@media screen and (max-width: 1200px) {
+    .learning .br_sp {
+        display: none;
+    }
+    .learning_title {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .learning_title span {
+        font-size: 14px;
+    }
+    .learning_dis {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+    .learning p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .learning {
+        height: 369px;
+    }
+    .learning .br_sp {
+        display: block;
+    }
+    .learning_title {
+        font-size: 18px;
+    }
+    .learning_title span {
+        font-size: 12px;
+    }
+    .learning_dis {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .learning .container {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .learning img {
+        max-width: 120px;
+        min-width: 87px;
+    }
+    .learning p {
+        font-size: 12px;
+        line-height: 19px;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 544px) {
+    .learning .container {
+        max-width: 460px;
+        margin-bottom: 30px;
+    }
 }
 /* merit */
 .merit {
