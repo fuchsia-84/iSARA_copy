@@ -1205,6 +1205,7 @@ a#info_btn {
     height: auto;
     background: url(../images/teacherbg.jpg);
     background-size: cover;
+    background-position: center;
     position: relative;
     z-index: -1;
 }
@@ -1214,59 +1215,144 @@ a#info_btn {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.teacher .br_sp {
+    display: none;
+}
 .teacher_title {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 28px;
     line-height: 40px;
     color: #ffffff;
 }
 .teacher_dis {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 26px;
     color: #ffffff;
     margin-top: 30px;
     margin-bottom: 70px;
-}
-.teacher .container {
-    width: 810px;
 }
 .teacher img {
     position: relative;
     z-index: 1;
 }
+.teacher .container {
+    width: 810px;
+}
 .teacher_content {
     position: relative;
     width: 375px;
-    height: 336px;
-    padding: 43px;
+    margin: 0 auto;
     border: solid 3px #ffffff;
     top: -40px;
     z-index: 0;
+    padding: 43px;
 }
 .teacher_content h1 {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 26px;
     color: #ffffff;
 }
 .teacher_content h2 {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 26px;
     color: #ffffff;
 }
 .teacher_content p {
     text-align: left;
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 26px;
     color: #ffffff;
+}
+@media screen and (max-width: 1200px) {
+    .teacher_title {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .teacher_dis {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .teacher_content h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .teacher_content h2 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .teacher_content p {
+        font-size: 14px;
+        line-height: 22px;
+}
+@media screen and (max-width: 992px) {
+    .teacher_wrap {
+        padding: 50px;
+    }
+    .teacher .container {
+        width: 100%;
+        max-width: 810px;
+        padding: 0 15px;
+    }
+    .teacher_content {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .teacher {
+        width: 100%;
+        height: auto;
+        background: url(../images/teacherbgsp.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: -1;
+    }
+    .teacher_wrap {
+        padding: 15px;
+    }
+    .teacher .br_sp {
+        display: block;
+    }
+    .teacher .container {
+        width: 100%;
+        min-width: 0;
+        padding: 0;
+    }
+    .teacher img {
+        width: 120px;
+    }
+    .teacher_content {
+        width: 100%;
+        padding: 43px 15px 15px;
+    }
+    .teacher_title {
+        font-size: 18px;
+        line-height: 40px;
+    }
+    .teacher_dis {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .teacher_content h1 {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .teacher_content h2 {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .teacher_content p {
+        font-size: 12px;
+        line-height: 19px;
 }
 /* question */
 .question {
