@@ -1292,6 +1292,7 @@ a#info_btn {
     .teacher_content p {
         font-size: 14px;
         line-height: 22px;
+    }
 }
 @media screen and (max-width: 992px) {
     .teacher_wrap {
@@ -1353,6 +1354,7 @@ a#info_btn {
     .teacher_content p {
         font-size: 12px;
         line-height: 19px;
+    }
 }
 /* question */
 .question {
