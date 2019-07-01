@@ -18,6 +18,11 @@
     line-height: 11px;
 }
 
+/* no-gutters */
+.no-gutters {
+    padding: 0;
+    margin: 0;
+}
 /* header */
 header#header {
     position: fixed;
@@ -921,12 +926,12 @@ a#info_btn {
 /* merit */
 .merit {
     background-color: #FEF5E0;
-    padding-top: 40px;
-    padding-bottom: 30px;
 }
 .merit_wrap {
     text-align: center;
     display: block;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 .merit_box {
     position: relative;
@@ -986,12 +991,19 @@ a#info_btn {
     line-height: 26px;
     color: #333333;
 }
+.merit .container {
+    min-width: 1170px;
+    margin-top: 30px;
+}
+.merit .m_box {
+    min-width: 390px;
+    margin-top: 30px;
+    padding: 0 15px;
+}
 .merit img {
     width: 360px;
-    margin: 0 auto 10px auto;
-}
-.merit .container {
-    margin-top: 30px;
+    height: 180px;
+    margin-bottom: 10px;
 }
 .merit_support {
     display: block;
@@ -1024,6 +1036,8 @@ a#info_btn {
     font-size: 16px;
     line-height: 26px;
     color: #333333;
+    display: inline-block;
+    margin: 0 15px;
 }
 .merit_caution {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
@@ -1031,11 +1045,157 @@ a#info_btn {
     font-size: 14px;
     line-height: 22px;
     color: #333333;
+    display: inline-block;
+    margin: 0 15px;
 }
 @media screen and (max-width: 1200px) {
+    .merit_box h1 {
+        font-size: 24px;
+        line-height: 40px;
+        padding-top: 10px; /* TODO: fix padding */
+    }
+    .merit_box h1 span{
+        font-size: 16px;
+        line-height: 40px;
+        padding-top: 10px; /* TODO: fix padding */
+    }
+    .merit .br_sp {
+        display: none;
+    }
+    .merit .br_pc {
+        display: block;
+    }
+    .merit .container {
+        max-width: 100%;
+        min-width: 500px;
+        padding: 0 65px;
+        margin-top: 20px;
+    }
+    .merit .m_box {
+        min-width: 300px;
+        padding: 0;
+    }
     .merit img {
         width: 300px;
-        margin: 0 auto 10px auto;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .merit_content_title {
+        text-align: center;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .merit_content_dis {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0 15px;
+    }
+    .merit_support_wrap {
+        padding: 0 50px;
+    }
+    .merit_support {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        margin: 30px auto;
+    }
+    .merit_support h1 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .merit_support h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .merit_support p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .merit_caution {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .merit .container {
+        min-width: 769px;
+    }
+    .merit img {
+        max-width: 100%;
+        height: 180px;
+        margin: 0 auto 10px;
+    }
+    .merit_support {
+        margin: 60px auto 30px auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .merit_box:before,.merit_box:after {
+        width: 30px;
+        height: 30px;
+    }
+    .merit .br_sp {
+        display: block;
+    }
+    .merit .br_pc {
+        display: none;
+    }
+    .merit .container {
+        padding: 0 30px;
+        min-width: 0;
+    }
+    .merit .m_box {
+        min-width: 0;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .merit_image_1 img {
+        display: none;
+    }
+    .merit_image_2 img {
+        display: none;
+    }
+    .merit_image_3 img {
+        display: none;
+    }
+    .merit_image_1 {
+        width: 100%;
+        height: 120px;
+        background: url(../images/learnfromfreelancer.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto 10px;
+    }
+    .merit_image_2 {
+        width: 100%;
+        height: 120px;
+        background: url(../images/learnfromprojects.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto 10px;
+    }
+    .merit_image_3 {
+        width: 100%;
+        height: 120px;
+        background: url(../images/actuallyfree.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto 10px;
+    }
+    .merit_support {
+        margin: 30px auto;
+    }
+    .merit_support h1 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .merit_support h2 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .merit_support p {
+        font-size: 10px;
+        line-height: 16px;
     }
 }
 
