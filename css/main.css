@@ -1503,6 +1503,9 @@ a#info_btn {
     padding-top: 0;
     padding-bottom: 30px;
 }
+.answer .br_sp {
+    display: none;
+}
 .answer h1 {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 600;
@@ -1518,6 +1521,7 @@ a#info_btn {
     color: #333333;
 }
 .answer p {
+    margin-top: 32px;
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -1529,9 +1533,14 @@ a#info_btn {
     width: 780px;
     height: 284px;
     margin: 0 auto;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.answer_image {
+    float: left;
+    height: 100%;
 }
 .answer_content img {
-    float: left;
     width: 244px;
     border: solid 3px #EBB94D;
     margin: 15px 30px 15px 0;
@@ -1559,6 +1568,87 @@ a#info_btn {
     line-height: 24px;
     color: #777777;
     text-decoration: underline;
+}
+@media screen and (max-width: 1200px) {
+    .answer_content {
+        width: auto;
+        height: auto;
+        margin: 0 auto 0 0;
+    }
+    .answer h1 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .answer h2 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .answer p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .answer_content img {
+        max-width: 248px;
+        width: 20vw;
+        margin: 15px 30px 15px 0;
+    }
+    .answer_dis {
+        display: block;
+        padding-top: 40px;
+    }
+    .answer_dis h1 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .answer_dis p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .answer_content {
+        width: auto;
+        height: auto;
+        margin: 0 20px;
+    }
+    .answer_content img {
+        max-width: 300px;
+        width: 30vw;
+        margin: 15px 30px 15px 0;
+    }
+    .answer_dis {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .answer .br_sp {
+        display: block;
+    }
+    .answer h1 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .answer h2 {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .answer p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .answer_content {
+        margin: 0 10px;
+    }
+    .answer_image {
+        display: inline-block;
+        clear: both;
+        width: 45%;
+    }
+    .answer_dis {
+        display: inline-block;
+        width: 55%;
+        padding-top: 15px;
+    }
 }
 /* class */
 .class {
