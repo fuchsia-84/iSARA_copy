@@ -1134,6 +1134,18 @@ a#info_btn {
         width: 30px;
         height: 30px;
     }
+    .merit_box h1 {
+        font-size: 18px;
+        line-height: 20px;
+        padding-top: 0;
+    }
+    .merit_box h1 span{
+        display: block;
+        font-size: 15px;
+        line-height: 21px;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
     .merit .br_sp {
         display: block;
     }
