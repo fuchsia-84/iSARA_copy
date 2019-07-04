@@ -1995,6 +1995,7 @@ a#info_btn {
         line-height: 24px;
     }
 }
+
 /* special */
 .special {
     background-color: #F7C23C;
@@ -2004,6 +2005,9 @@ a#info_btn {
     display: block;
     padding-top: 60px;
     padding-bottom: 30px;
+}
+.special .br_sp {
+    display: none;
 }
 .special h1 {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
@@ -2026,14 +2030,14 @@ a#info_btn {
 .special h3 {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 38px;
+    font-size: 28px;
+    line-height: 45px;
     color: #333333;
     background-color: #F7C23C;
 
     position: absolute;
     z-index: 1;
-    width: 400px;
+    width: 45vw;
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -2043,6 +2047,9 @@ a#info_btn {
     position: relative;
     z-index: 0;
     margin-top: 90px;
+}
+.special_circle_sp {
+    display: none;
 }
 .special_circle {
     display: inline-block;
@@ -2074,13 +2081,99 @@ a#info_btn {
     width: 220px;
     margin: 0 auto;
 }
+@media screen and (max-width: 1200px) {
+    .special h1 {
+        font-size: 24px;
+    }
+    .special h2 {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 40px auto 60px;
+    }
+    .special h3 {
+        font-size: 24px;
+        line-height: 38px;
+        width: 400px;
+    }
+}
 @media screen and (max-width: 992px) {
     .special .container {
         padding-top: 50px;
         padding-bottom: 50px;
+        margin-top: 70px;
     }
     .special_circle {
         margin: 15px auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .special_wrap {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .special .br_sp {
+        display: block;
+    }
+    .special h1 {
+        font-size: 18px;
+    }
+    .special h2 {
+        font-size: 12px;
+        line-height: 19px;
+        margin: 20px auto 45px;
+    }
+    .special h3 {
+        font-size: 18px;
+        line-height: 29px;
+        width: 250px;
+    }
+    .special_circle {
+        display: none;
+    }
+    .special .container {
+        border: solid 2px #ffffff;
+        padding: 25px 20px;
+        min-width: 96vw;
+        width: 96vw;
+    }
+    .special_circle_sp {
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        margin: 18px auto;
+    }
+    .special_circle_sp_l {
+        width: 30%;
+        float: left;
+    }
+    .special_circle_sp_r {
+        display: inline-block;
+        width: 65%;
+    }
+    .special_circle_sp h1 {
+        font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 60px;
+        color: #EBB94D;
+        display: block;
+
+        background-color: #ffffff;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    .special_circle_sp p {
+        font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+        color: #ffffff;
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+        margin: 12px 0;
     }
 }
 /* special detail */
