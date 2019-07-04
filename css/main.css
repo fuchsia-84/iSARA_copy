@@ -1786,8 +1786,8 @@ a#info_btn {
 .class_under_wrap {
     text-align: center;
     display: block;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .class_under h1 {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
@@ -1796,6 +1796,23 @@ a#info_btn {
     line-height: 32px;
     color: #ffffff;
 }
+@media screen and (max-width: 1200px) {
+    .class_under h1 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .class_under_wrap {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .class_under h1 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
 /* flow */
 .flow {
     background-color: #ffffff;
