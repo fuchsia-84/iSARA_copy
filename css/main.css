@@ -1932,6 +1932,7 @@ a#info_btn {
     color: #ffffff;
 }
 .bangkok p {
+    margin: 20px auto 20px 0;
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -1947,9 +1948,24 @@ a#info_btn {
     font-size: 16px;
     line-height: 26px;
     color: #ffffff;
+    margin: 10px auto;
 }
 .bangkok ul li:before {
     content: "・";
+}
+@media screen and (max-width: 1200px) {
+    .bangkok p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .bangkok ul li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .bangkok h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
 @media screen and (max-width: 768px) {
     .bangkok {
