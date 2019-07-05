@@ -2176,6 +2176,7 @@ a#info_btn {
         margin: 12px 0;
     }
 }
+
 /* special detail */
 .special_detail {
     background: url(../images/specialdetail.jpg);
@@ -2186,6 +2187,9 @@ a#info_btn {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.special_detail .br_sp {
+    display: none;
 }
 .special_detail h1 {
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
@@ -2205,13 +2209,13 @@ a#info_btn {
     position: relative;
     width: 96vw;
     max-width: 860px;
-    padding: 1.5em 0.2em;
+    padding: 0.5em 0.2em;
     margin: 0 auto;
 }
 .special_detail_box:before,.special_detail_box:after {
     content:'';
-    width: 40px; /* TODO: fix width and height */
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     display: inline-block;
 }
@@ -2235,6 +2239,58 @@ a#info_btn {
     color: #ffffff;
     padding-top: 10px;
 }
+@media screen and (max-width: 1200px) {
+    .special_detail h1 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .special_detail p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .special_detail_box h2 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .special_detail_wrap {
+        padding: 60px;
+    }
+    .special_detail_box {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .special_detail_wrap {
+        padding: 30px 0;
+    }
+    .special_detail .br_sp {
+        display: block;
+    }
+    .special_detail_box {
+        width: 92vw;
+        margin: 0 auto;
+    }
+    .special_detail_box:before,.special_detail_box:after {
+        width: 30px;
+        height: 30px;
+    }
+    .special_detail h1 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .special_detail p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .special_detail_box h2 {
+        font-size: 18px;
+    }
+}
+
+
 /* message */
 .message {
     background-color: #ffffff;
