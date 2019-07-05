@@ -2300,6 +2300,9 @@ a#info_btn {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.message .br_sp {
+    display: none;
+}
 .message h1 {
     display: block;
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
@@ -2407,6 +2410,25 @@ a#info_btn {
         width: 100%;
         height: auto;
         margin: 30px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .message_wrap {
+        padding: 40px 0 35px;
+    }
+    .message .br_sp {
+        display: block;
+    }
+    .message h1 {
+        font-size: 18px;
+    }
+    .message h2 {
+        font-size: 15px;
+        line-height: 24px;
+        margin: 35px auto 20px;
+    }
+    .message_dis {
+        margin: 30px 0 0;
     }
 }
 /* contact */
