@@ -2629,6 +2629,60 @@ a#info_btn {
     right: 20px;
     margin-top: -12px;
 }
+@media screen and (max-width: 1200px) {
+    .faq_wrap {
+        text-align: center;
+        padding: 60px;
+    }
+    .faq h1 {
+        font-size: 24px;
+    }
+    .faq_accordion {
+        margin: 30px auto;
+        width: 100%;
+    }
+    .faq_accordion button {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .faq_accordion p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #faq_accordion .card-header button[data-toggle="collapse"].collapsed:after {
+        font-size: 20px;
+    }
+    #faq_accordion .card-header button[data-toggle="collapse"]:after {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .faq_wrap {
+        text-align: center;
+        padding: 40px 15px;
+    }
+    .faq h1 {
+        font-size: 18px;
+    }
+    .faq_accordion {
+        margin: 20px auto;
+    }
+    .faq_accordion button {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .faq_accordion p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    #faq_accordion .card-header button[data-toggle="collapse"].collapsed:after {
+        font-size: 20px;
+    }
+    #faq_accordion .card-header button[data-toggle="collapse"]:after {
+        font-size: 20px;
+    }
+}
+
 /* footer */
 footer#footer {
     background-color: #ECECEC;
