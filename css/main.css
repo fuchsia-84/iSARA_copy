@@ -2431,6 +2431,7 @@ a#info_btn {
         margin: 30px 0 0;
     }
 }
+
 /* contact */
 .contact {
     background-color: #EBB94D;
@@ -2483,14 +2484,14 @@ a#info_btn {
     display: block;
     width: 60vw;
     height: 55px;
-    margin: 40px auto;
+    margin: 40px auto 0;
     border: none;
     border-radius: 50px;
     background-color: #DA6B64;
     font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 38px;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 37px;
     letter-spacing: 24px;
     color: #ffffff;
 }
@@ -2514,6 +2515,54 @@ a#info_btn {
     font-size: 14px;
     line-height: 22px;
     color: #777777;
+}
+@media screen and (max-width: 1200px) {
+    .contact h1 {
+        font-size: 24px;
+    }
+    .contact h2 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .contact input[type="text"] {
+        width: 70vw;
+        margin: 25px auto;
+    }
+    .contact input[type="email"] {
+        width: 70vw;
+        margin: 25px auto;
+    }
+    .contact textarea {
+        width: 70vw;
+        margin: 25px auto;
+    }
+    .contact input[type="submit"] {
+        width: 70vw;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact_wrap {
+        padding: 40px 15px;
+    }
+    .contact h1 {
+        font-size: 18px;
+    }
+    .contact h2 {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    .contact input[type="text"] {
+        width: 100%;
+    }
+    .contact input[type="email"] {
+        width: 100%;
+    }
+    .contact textarea {
+        width: 100%;
+    }
+    .contact input[type="submit"] {
+        width: 100%;
+    }
 }
 
 /* faq */
