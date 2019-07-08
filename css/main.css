@@ -1830,6 +1830,9 @@ a#info_btn {
     line-height: 40px;
     color: #333333;
 }
+.flow_content_sp {
+    display: none;
+}
 .flow_all_image {
     width: 88%;
     max-width: 1000px;
@@ -1888,12 +1891,14 @@ a#info_btn {
     line-height: 22px;
     color: #333333;
 }
-@media screen and (max-width: 768px) {
-    .flow_content {
-        display: none;
-    }
-}
 @media screen and (max-width: 1200px) {
+    .flow_wrap {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .flow h1 {
+        font-size: 24px;
+    }
     .flow_box_dis h1 {
         font-size: 14px;
         line-height: 22px;
@@ -1903,6 +1908,94 @@ a#info_btn {
         line-height: 19px;
     }
 }
+@media screen and (max-width: 768px) {
+    .flow_wrap { 
+        padding: 40px 15px 30px;
+    }
+    .flow_content {
+        display: none;
+    }
+    .flow_all_image {
+        display: none;
+    }
+    .flow_content_sp {
+        display: block;
+    }
+    .flow h1 {
+        font-size: 18px;
+    }
+    .flow_accordion {
+        margin: 30px 0;
+        width: 100%;
+        text-align: left;
+        position: relative;
+    }
+    .flow_accordion button {
+        font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 17px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+    }
+    .flow_accordion button:hover {
+        color: #000000;
+    }
+    .flow_accordion h1 {
+        font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+        color: #333333c7;
+    }
+    .flow_accordion p {
+        font-family: "Hiragino Kaku Gothic Pro", Meirio, Osaka, "MS PGothic", sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 19px;
+        color: #333333;
+    }
+    #flow_accordion img {
+        width: 35px;
+        margin-right: 15px;
+    }
+    #flow_accordion .card-header, #flow_accordion .card-body{
+        background-color: #FEF5E0;
+        border: none;
+    }
+    #flow_accordion .card-header{
+        height: 55px;
+        padding: 5px 15px;
+    }
+    #flow_accordion .card{
+        border-radius: 0;
+        border: none;
+    }
+    #flow_accordion .card-header button[data-toggle="collapse"].collapsed:after {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 25px;
+        color: #333333;
+        content: "\f107";/* angle-down */
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        margin-top: -20px;
+    }
+    #flow_accordion .card-header button[data-toggle="collapse"]:after {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 25px;
+        color: #333333;
+        content: "\f106";/* angle-up */
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        margin-top: -20px;
+    }
+}
+
 /* bangkok */
 .bangkok {
     width: 100%;
