@@ -2701,3 +2701,9 @@ footer .copyright{
     line-height: 16px;
     color: #333333;
 }
+@media screen and (max-width: 768px) {
+    .footer_wrap {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+}
