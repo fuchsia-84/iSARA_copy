@@ -2744,9 +2744,15 @@ a#info_btn {
     }
     #faq_accordion .card-header button[data-toggle="collapse"].collapsed:after {
         font-size: 20px;
+        top: 40px;
+        right: 20px;
+        margin-top: -12px;
     }
     #faq_accordion .card-header button[data-toggle="collapse"]:after {
         font-size: 20px;
+        top: 40px;
+        right: 20px;
+        margin-top: -12px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -2760,19 +2766,36 @@ a#info_btn {
     .faq_accordion {
         margin: 20px auto;
     }
+    .faq_accordion h2 {
+        margin: 0;
+        padding: 0;
+    }
     .faq_accordion button {
         font-size: 15px;
         line-height: 17px;
+        margin: 0;
+        padding: 0;
     }
     .faq_accordion p {
         font-size: 12px;
         line-height: 19px;
     }
+    #faq_accordion .card-header {
+        height: 38px;
+        margin: 0;
+        padding: 0 15px;
+    }
     #faq_accordion .card-header button[data-toggle="collapse"].collapsed:after {
         font-size: 20px;
+        top: 30px;
+        right: 20px;
+        margin-top: -20px;
     }
     #faq_accordion .card-header button[data-toggle="collapse"]:after {
         font-size: 20px;
+        top: 30px;
+        right: 20px;
+        margin-top: -20px;
     }
 }
 
